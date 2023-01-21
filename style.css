@@ -5,6 +5,9 @@
 }
 
 /*Header*/
+body{
+    background-color: #000000;
+}
 .hero{
     height: 100vh;
     width: 100%;
@@ -82,12 +85,42 @@ h3:hover{
     transition: .4s;
 }
 .contenedorDos{
-    height: 60vh;
+    height: 100%;
     width: 100%;
     background-image: url(./archivos/bg2.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: center;
+    
 }
+.nosotros{
+    display: block;
+    justify-content: space-between;
+    padding: 60px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 15px auto; 
+}
+.nosotros h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0090218d;
+}
+.nosotros h2:hover{
+    color: #7fffd4;
+    transition: .4s;
+}
+.nosotros p{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+.nosotros p:hover{
+    color: #7fffd4;
+}
+
 /*footer*/
 .footer{
     background-color: #508593;

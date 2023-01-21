@@ -46,6 +46,7 @@ nav ul li{
 nav ul li:hover{
     color: #59c4ce;;
     transition: .4s;
+    text-decoration: underline;
 }
 /*main*/
 

@@ -25,7 +25,6 @@ nav{
     color: #0090218d;
     font-size: 50px;
     letter-spacing: 2px;
-    cursor: pointer;
     font-family:'Times New Roman', Times, serif;
 }
 .logo:hover{
@@ -42,8 +41,12 @@ nav ul li{
     padding: 10px 25px;
     font-size: 20px;
 }
-
-nav ul li:hover{
+nav ul li a{
+    text-decoration: none;
+    color: #0090218d;
+    font-family:'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
     color: #59c4ce;;
     transition: .4s;
     text-decoration: underline;

@@ -129,6 +129,10 @@ h3:hover{
     margin-top: auto;
     font-size: 20px;
 }
+.footer ul li{
+list-style-type: none;
+text-align: center;
+}
 .colorcito{
     color:#7fffd4;
 }
@@ -138,4 +142,36 @@ h3:hover{
 }
 .footer ul li:hover{
     color: #7fffd4;
+}
+.redes{
+    font-size: 40px;
+    margin-top: 10px;
+}
+/*.redes:hover{
+    color: #7fffd4;
+    transition: .4s;
+}*/
+.fa-envelope{
+    color: #7fffd4;
+    font-size: 40px;
+}
+.fa-envelope:hover{
+    color: #59c4ce;
+    transition: .4s;
+}
+.fa-discord{
+    color: #7fffd4;
+    font-size: 40px;
+}
+.fa-discord:hover{
+    color: #59c4ce;
+    transition: .4s;
+}
+.fa-instagram{
+    color: #7fffd4;
+    font-size: 40px;
+}
+.fa-instagram:hover{
+    color: #59c4ce;
+    transition: .4s;
 }

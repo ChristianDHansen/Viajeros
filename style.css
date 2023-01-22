@@ -206,3 +206,49 @@ color: #508593;}
 .herotitulo h2:hover{
     color: #7fffd4;
 }
+/*CONTACTO*/
+.containerForm{
+    height: 50vh;
+    width: 70%;
+    position: absolute;
+    transform: translateY(-150%);
+    margin-left: 40px;
+}
+.form-label{
+    font-family: 'Times New Roman', Times, serif;
+    color: #0090218d;
+}
+.form-label:hover{
+    color: #000000;
+}
+.btn-primary{
+    margin-top: 10px;
+}
+/*.containerForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-800%);
+    transform: translateX(50%)
+}*/
+
+
+
+
+
+
+/*.mainContacto{
+    width: 50%;
+    height: auto;
+    transform: translateY(-100%);
+    position: absolute;
+}
+.legend{
+    color: #0090218d;
+    font-family:'Times New Roman', Times, serif;
+}
+.contenedorFormulario{
+    margin-left: 150px;
+    transform: translateX(10%);
+}*/

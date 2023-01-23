@@ -133,6 +133,16 @@ color: #508593;}
     margin-right: 30px;
     cursor: pointer;
 }
+.footer a{
+    text-decoration: none;
+    color: #7fffd4;
+    font-family:'Times New Roman', Times, serif;
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: #000000;
+    transition: .4s;
+}
 .colorcito{
     color:#7fffd4;
 }
@@ -208,7 +218,7 @@ color: #508593;}
 }
 /*CONTACTO*/
 .containerForm{
-    height: 50vh;
+    height: 55vh;
     width: 70%;
     position: absolute;
     transform: translateY(-150%);
@@ -224,31 +234,20 @@ color: #508593;}
 .btn-primary{
     margin-top: 10px;
 }
-/*.containerForm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    transform: translateY(-800%);
-    transform: translateX(50%)
-}*/
-
-
-
-
-
-
-/*.mainContacto{
-    width: 50%;
-    height: auto;
-    transform: translateY(-100%);
-    position: absolute;
+.textContacto{
+    margin-top: 30px;
 }
-.legend{
+.tituloMision{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
     color: #0090218d;
-    font-family:'Times New Roman', Times, serif;
 }
-.contenedorFormulario{
-    margin-left: 150px;
-    transform: translateX(10%);
-}*/
+.tituloMision:hover{
+    color: #508593;
+}
+.textContacto p{
+    color: #508593;
+}
+.textContacto p:hover{
+    color: #000000;
+}

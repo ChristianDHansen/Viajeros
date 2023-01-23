@@ -257,8 +257,14 @@ color: #508593;}
     .tituloMision{
         font-size: 30px;
     }
+    .nosotros p{
+        font-size: 11px;
+    }
+    .nosotros h2{
+        font-size: 30px;
+    }
 }
-@media only screen and (min-width:320px) and (max-width:599px){
+@media only screen and (min-width:456px) and (max-width:599px){
     nav ul li{
         font-size: 15px;
         padding: 20px 0 20px;
@@ -281,16 +287,14 @@ color: #508593;}
     .textContacto p{
         font-size: 11px;
     }
+    .nosotros p{
+        font-size: 8px;
+    }
+    .nosotros h2{
+        font-size: 25px;
+    }
 }
 @media only screen and (min-width:320px) and (max-width:455px){
-    .textContacto p{
-        font-size: 9px;
-    }
-    .tituloMision{
-        font-size: 18px;
-    }
-}
-/*@media only screen and (min-width:320px) and (max-width:459px){
     nav ul li{
         font-size: 15px;
         padding: 20px 0 20px;
@@ -312,4 +316,11 @@ color: #508593;}
     .tituloMision{
         font-size: 18px;
     }
-}*/
+    .nosotros p{
+        font-size: 8px;
+        
+    }
+    .nosotros h2{
+        font-size: 20px;
+    }
+}

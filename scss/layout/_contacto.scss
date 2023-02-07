@@ -7,7 +7,7 @@
 }
 .form-label{
     font-family: 'Times New Roman', Times, serif;
-    color: #0090218d;
+    color: $color-second;
 }
 .form-label:hover{
     color: #000000;
@@ -21,13 +21,13 @@
 .tituloMision{
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: #0090218d;
+    color: $color-second;
 }
 .tituloMision:hover{
-    color: #508593;
+    color: $color-main;
 }
 .textContacto p{
-    color: #508593;
+    color: $color-main;
 }
 .textContacto p:hover{
     color: #000000;

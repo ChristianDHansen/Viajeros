@@ -4,54 +4,62 @@
     text-align: center;
     margin-top: auto;
     font-size: 20px;
-}
-.footer ul li{
-    list-style-type: none;
-    margin-right: 30px;
-    cursor: pointer;
-}
-.footer a{
-    text-decoration: none;
-    color: #7fffd4;
-    font-family:'Times New Roman', Times, serif;
-}
-.footer a:hover{
-    text-decoration: underline;
-    color: #000000;
-    transition: .4s;
+
+    .footer ul li{
+        list-style-type: none;
+        margin-right: 30px;
+        cursor: pointer;
+
+        .footer ul li:hover{
+            color: #7fffd4;
+
+            .footer a{
+            text-decoration: none;
+            color: #7fffd4;
+            font-family:'Times New Roman', Times, serif;
+
+                .footer a:hover{
+                    text-decoration: underline;
+                    color: #000000;
+                    transition: .4s;
+                }
+            }
+        }
+    }
 }
 .colorcito{
-    color:#7fffd4;
-}
-.colorcito:hover{
-    color: #59c4ce;
-    transition: .4s;
-}
-.footer ul li:hover{
-    color: #7fffd4;
+        color:#7fffd4;
+
+    .colorcito:hover{
+        color: #59c4ce;
+        transition: .4s;
+    }
 }
 .redes{
     font-size: 40px;
     margin-top: 10px;
-}
-.fa-envelope{
-    color: #7fffd4;
-}
-.fa-envelope:hover{
-    color: #59c4ce;
-    transition: .4s;
-}
-.fa-discord{
-    color: #7fffd4;
-}
-.fa-discord:hover{
-    color: #59c4ce;
-    transition: .4s;
-}
-.fa-instagram{
-    color: #7fffd4;
-}
-.fa-instagram:hover{
-    color: #59c4ce;
-    transition: .4s;
+
+    .fa-envelope{
+        color: #7fffd4;
+
+        .fa-envelope:hover{
+        color: #59c4ce;
+        transition: .4s;}
+    }
+
+    .fa-discord{
+        color: #7fffd4;
+    
+        .fa-discord:hover{
+        color: #59c4ce;
+        transition: .4s;}
+    }
+
+    .fa-instagram{
+        color: #7fffd4;
+
+        .fa-instagram:hover{
+        color: #59c4ce;
+        transition: .4s;}
+    }
 }

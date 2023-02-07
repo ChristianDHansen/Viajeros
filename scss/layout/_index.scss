@@ -37,9 +37,9 @@ h3:hover{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 80px 100px;
     margin-top: 15px;
     gap: 15px;
+    
 }
 .container h2{
     font-family: 'Times New Roman', Times, serif;
@@ -51,6 +51,7 @@ h3:hover{
 }
 
 .card{
+    @include tamanio(80px, 100px);
     text-align: center;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;

@@ -1,0 +1,5 @@
+@mixin tamanio($alto,$ancho){
+
+    height: $alto;
+    width: $ancho;
+}

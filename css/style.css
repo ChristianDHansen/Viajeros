@@ -5,14 +5,12 @@
 /*header*/
 body {
   background-color: #508593; }
-
 .hero {
   height: 100vh;
   width: 100%;
   background-image: url(../archivos/bg.jpg);
   background-size: cover;
   background-position: center; }
-
 nav {
   display: flex;
   align-items: center;
@@ -27,6 +25,7 @@ nav {
 
 .logo:hover {
   color: #59c4ce; }
+
 
 span {
   color: #59c4ce; }

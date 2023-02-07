@@ -1,0 +1,25 @@
+.carrousel{
+    width: 50%;
+    height: 50vh;
+    object-fit: cover;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translateY(-50%);
+}
+.carousel-item img{
+    border-radius: 20px;
+}
+.galeriaTitulo{
+    padding: 10px 0px 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+.galeriaTitulo span{
+    color: #7fffd4;
+}
+.galeriaTitulo h2:hover{
+    color: #7fffd4;
+}

@@ -1,0 +1,93 @@
+
+.contenedor{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translateY(-50%) 
+}
+h1{
+    color:#0090218d;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h1 span{
+    color: #59c4ce;
+}
+h3{
+    color: #0090218d;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 65px;
+}
+h3 span{
+    color: #59c4ce;
+}
+h1:hover{
+    color: #59c4ce;
+    transition: .4s;
+}
+h3:hover{
+    color: #59c4ce;
+    transition: .4s;
+}
+.container{
+    background-image: url(./archivos/elNorte.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+    margin-top: 15px;
+    gap: 15px;
+}
+.container h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #0090218d;
+    
+}
+.container h2:hover{
+    color: #000000;
+}
+
+.card{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedorDos{
+    height: 100%;
+    width: 100%;
+    background-image: url(./archivos/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.nosotros{
+    display: block;
+    justify-content: space-between;
+    padding: 60px;
+    width: 50%;
+    border-radius: 10px;
+    margin: 15px auto; 
+}
+.nosotros h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0090218d;
+}
+.nosotros h2:hover{
+    color: #7fffd4;
+    transition: .4s;
+}
+.nosotros p{
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-align: center;
+color: #508593;}
+.nosotros p:hover{
+    color: #000000;
+}

@@ -1,0 +1,34 @@
+.containerForm{
+    height: 55vh;
+    width: 70%;
+    position: absolute;
+    transform: translateY(-150%);
+    margin-left: 40px;
+}
+.form-label{
+    font-family: 'Times New Roman', Times, serif;
+    color: #0090218d;
+}
+.form-label:hover{
+    color: #000000;
+}
+.btn-primary{
+    margin-top: 10px;
+}
+.textContacto{
+    margin-top: 30px;
+}
+.tituloMision{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #0090218d;
+}
+.tituloMision:hover{
+    color: #508593;
+}
+.textContacto p{
+    color: #508593;
+}
+.textContacto p:hover{
+    color: #000000;
+}

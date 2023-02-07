@@ -1,0 +1,43 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./archivos/bg.jpg);
+    background-size:cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+.logo{
+    color: #0090218d;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family:'Times New Roman', Times, serif;
+}
+.logo:hover{
+    color: #59c4ce;
+}
+span{
+    color: #59c4ce;
+}
+nav ul li{
+    color: #0090218d;
+    list-style-type: none;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #0090218d;
+    font-family:'Times New Roman', Times, serif;
+}
+nav ul li a:hover{
+    color: #59c4ce;;
+    transition: .4s;
+    text-decoration: underline;
+}

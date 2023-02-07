@@ -1,54 +1,52 @@
 
-.contenedor{
+.contenedor {
     position: absolute;
     top: 40%;
     left: 15%;
-    transform: translateY(-50%) 
-}
-h1{
-    color:$color-second;
+    transform: translateY(-50%); }
+    
+    h2 {
+    color: #0090218d;
     margin: 20px 0px 20px;
-    font-size: 75px;
-}
-h1 span{
-    color: #59c4ce;
-}
-h3{
-    color: $color-second;
+    font-size: 75px; }
+
+    h2 span {
+    color: #59c4ce; }
+
+    h3 {
+    color: #0090218d;
     font-size: 30px;
     margin-bottom: 20px;
-    margin-left: 65px;
-}
-h3 span{
+    margin-left: 65px; }
+
+    h3 span {
+    color: #59c4ce; }
+
+    h2:hover {
     color: #59c4ce;
-}
-h1:hover{
+    transition: .4s; }
+
+    h3:hover {
     color: #59c4ce;
-    transition: .4s;
-}
-h3:hover{
-    color: #59c4ce;
-    transition: .4s;
-}
-.container{
-    background-image: url(./archivos/elNorte.jpg);
+    transition: .4s; }
+
+.container {
+    background-image: url(../archivos/elNorte.jpg);
     background-size: cover;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: 80px 100px;
     margin-top: 15px;
-    gap: 15px;
-    
-}
-.container h2{
+    gap: 15px; }
+
+.container h2 {
     font-family: 'Times New Roman', Times, serif;
-    color: $color-second;
-    
-}
-.container h2:hover{
-    color: #000000;
-}
+    color: #0090218d; }
+
+.container h2:hover {
+    color: #000000; }
 
 .card{
     @include tamanio(80px, 100px);

@@ -4,24 +4,27 @@
     text-align: center;
     margin-top: auto;
     font-size: 20px;
+    .footer h2{
+        font-size: 40px;
 
-    .footer ul li{
-        list-style-type: none;
-        margin-right: 30px;
-        cursor: pointer;
+        .footer ul li{
+            list-style-type: none;
+            margin-right: 30px;
+            cursor: pointer;
 
-        .footer ul li:hover{
-            color: #7fffd4;
+            .footer ul li:hover{
+                color: #7fffd4;
 
-            .footer a{
-            text-decoration: none;
-            color: #7fffd4;
-            font-family:'Times New Roman', Times, serif;
+                .footer a{
+                text-decoration: none;
+                color: #7fffd4;
+                font-family:'Times New Roman', Times, serif;
 
-                .footer a:hover{
-                    text-decoration: underline;
-                    color: #000000;
-                    transition: .4s;
+                    .footer a:hover{
+                        text-decoration: underline;
+                        color: #000000;
+                        transition: .4s;
+                    }
                 }
             }
         }

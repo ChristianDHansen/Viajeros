@@ -6,7 +6,7 @@
 
 /*Header*/
 body{
-    background-color: #000000;
+    background-color: #508593;
 }
 .hero{
     height: 100vh;
@@ -84,6 +84,32 @@ h3:hover{
     color: #59c4ce;
     transition: .4s;
 }
+.container{
+    background-image: url(./archivos/elNorte.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+    margin-top: 15px;
+    gap: 15px;
+}
+.container h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #0090218d;
+    
+}
+.container h2:hover{
+    color: #000000;
+}
+
+.card{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .contenedorDos{
     height: 100%;
     width: 100%;
@@ -246,7 +272,18 @@ color: #508593;}
         font-size: 15px;
         margin-bottom: 7px;
     }
+    .card{
+        font-size: 15px;
+    }
+    .container h2{
+        font-size: 25px;
+    }
 }
+@media only screen and (min-width:900px) and (max-width:992px){
+    .card{
+        font-size: 12px;
+    }
+   }
 @media only screen and (min-width:600px) and (max-width:899px){
     h1{
         font-size: 60px;
@@ -262,6 +299,12 @@ color: #508593;}
     }
     .nosotros h2{
         font-size: 30px;
+    }
+    .card{
+        font-size: 8px;
+    }
+    .container h2{
+        font-size: 18px;
     }
 }
 @media only screen and (min-width:456px) and (max-width:599px){
@@ -293,6 +336,15 @@ color: #508593;}
     .nosotros h2{
         font-size: 25px;
     }
+    .card{
+        font-size: 6px;
+    }
+    .container h2{
+        font-size: 15px;
+    }
+    .container{
+    padding: 40px 60px;
+    }
 }
 @media only screen and (min-width:320px) and (max-width:455px){
     nav ul li{
@@ -322,5 +374,14 @@ color: #508593;}
     }
     .nosotros h2{
         font-size: 20px;
+    }
+    .card{
+        font-size: 5px;
+    }
+    .container h2{
+        font-size: 12px;
+    }
+    .container{
+    padding: 20px 50px;
     }
 }

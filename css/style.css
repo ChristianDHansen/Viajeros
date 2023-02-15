@@ -102,7 +102,48 @@ nav ul li a:hover {
     text-align: center;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif; }
-  
+  /*section*/
+  .contain{
+    background-image:url(../archivos/fondito.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarjeta{
+    width: 250px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    border-radius: 5px;
+  }
+  .card-title{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:#0090218d;
+  }
+  .card-title:hover{
+    color: #000000;
+  }
+  .card-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#0090218d;
+  }
+  .card-text:hover{
+    color: #000000;
+  }
+  .tituloFamilia{
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 80px;
+    color: #0090218d;
+  }
+  /*section*/
   .contenedorDos {
     height: 100%;
     width: 100%;
@@ -262,9 +303,12 @@ nav ul li a:hover {
   @media only screen and (min-width: 1200px) {
     .container h2 {
       font-size: 25px; } 
-      
   }
-    
+  @media only screen and (min-width: 768px) and (max-width: 999px) {
+    .tarjeta{
+      padding: 30px;
+    }
+  }  
 @media only screen and (min-width: 900px) and (max-width: 1200px) {
   .textContacto p {
     font-size: 15px;

@@ -56,6 +56,47 @@ h3:hover {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif; }
   
+    .contain{
+      background-image:url(../archivos/fondito.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+    .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .tarjeta{
+      width: 250px;
+      margin-bottom: 50px;
+      margin-left: 40px;
+      border-radius: 5px;
+    }
+    .card-title{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+      color:#0090218d;
+    }
+    .card-title:hover{
+      color: #000000;
+    }
+    .card-text{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color:#0090218d;
+    }
+    .card-text:hover{
+      color: #000000;
+    }
+    .tituloFamilia{
+      padding: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 35px;
+      text-align: center;
+      margin-right: 80px;
+      color: #0090218d;
+    }
+
   .contenedorDos {
     height: 100%;
     width: 100%;
